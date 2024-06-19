@@ -12,19 +12,17 @@ const RenderCampsite = ({ campsite }) => {
                                 color: 'white',
                                 textAlign: 'center',
                                 fontSize: 20
-                              }}
-                         >
-                         {campsite.name}
+                            }}
+                        >
+                            {campsite.name}
                         </Text>
                     </View>
                 </Card.Image>
-                    <Text style={{ margin: 20 }}>
-                       {campsite.description}
-                    </Text>
+                <Text style={{ margin: 20 }}>{campsite.description}</Text>
             </Card>
         );
     }
     return <View />;
 };
 
-export default RenderCampsite; 
+export default RenderCampsite;
