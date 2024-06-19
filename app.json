@@ -2,7 +2,6 @@
   "expo": {
     "name": "nucampsite",
     "slug": "nucampsite",
-<<<<<<< HEAD
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -33,8 +32,5 @@
     "experiments": {
       "typedRoutes": true
     }
-=======
-    "version": "1.0.0"
->>>>>>> 8f5e114 (before nav)
   }
 }
